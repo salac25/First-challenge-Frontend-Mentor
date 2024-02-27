@@ -1,0 +1,49 @@
+/*----Layout----*/
+body{ font-weight: 400px; margin:10px;}
+h1{ text-align:left; color: black;
+  font-family:Arial, Helvetica, sans-serif; border-radius: 5px;
+  margin-top: 5px; margin-bottom: 5px; padding-left: 5%; padding-right: 5%;border-radius: 5px;}
+h2,h4{color:brown;text-align: left;margin-left: 10px; padding-left: 10px;}
+ .flexcontainer{margin:auto; width:100%;
+  height:100%;} 
+ img{height:100%; width:100%;}
+p{font-size: 16px;}
+
+.div1{ text-align:center; color: black; font-family: Arial, Helvetica, sans-serif; 
+  border-radius: 5px; padding:5px; margin-top: 5px; margin-bottom: 5px;}
+
+.div2{text-align: left;  background-color:lightpink;color:black;
+  font-family:Arial, Helvetica, sans-serif; border-radius: 5px;
+  margin-top: 5px; margin-bottom: 5px; padding-left: 5%; padding-right: 5%;
+  padding-top: 5px;}
+
+.div3{ text-align: left;
+  color:black;padding-left: 5%; padding-right: 5%;
+  font-family:Arial, Helvetica, sans-serif; border-radius: 5px;
+   margin-top: 5px; margin-bottom: 5px;}
+.div4{text-align: left;
+    color:black;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:5px; margin-top: 5px; margin-bottom: 5px;}
+
+.containergrid{ display:grid;/*grid-template-columns: auto auto auto auto*/
+  grid-gap:5px;
+/*grid-template-rows:100px 100px 100px 100px*/
+grid-auto-rows: 30px;}
+.section1{ grid-column: 1;
+ grid-row: 1; font-size: 16px; border-bottom: 1px solid black;}
+.section2{ grid-column: 2;
+  grid-row: 1;color:brown; border-bottom: 1px solid black;}
+.section3{ grid-column: 1;
+  grid-row: 2; font-size: 16px; border-bottom: 1px solid black;}
+.section4{ grid-column: 2;
+  grid-row: 2;color:brown; border-bottom: 1px solid black;}
+.section5{ grid-column:1 ;
+  grid-row: 3; font-size: 16px; border-bottom: 1px solid black;}
+.section6{ grid-column:2 ;
+  grid-row: 3;color:brown; border-bottom: 1px solid black;}
+.section7{ grid-column:1 ;
+  grid-row: 4; font-size: 16px; border-bottom: 1px solid black;}
+.section8{ grid-column:2 ;
+  grid-row: 4;color:brown; border-bottom: 1px solid black;} 
+  
